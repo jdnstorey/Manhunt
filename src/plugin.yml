@@ -1,0 +1,21 @@
+name: Manhunt
+main: me.scottstorey.manhunt.Main
+version: 1.2
+author: scottstorey
+api-version: 1.15
+
+commands:
+  border:
+    permission: manhunt.border
+    description: Sets world border size
+  manhuntstart:
+    permission: manhunt.start
+    description: Starts the hour long game of manhunt
+  manhuntstop:
+      permission: manhunt.stop
+      description: Stops the hour long game of manhunt
+
+  hunter:
+    description: Sets player as hunter, gives a compass that tracks the runner.
+  runner:
+    description: Sets player as runner, the runner has one hour to stay alive.
